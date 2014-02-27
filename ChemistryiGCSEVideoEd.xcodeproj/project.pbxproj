@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C1E10FF16403A37006DF210 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1E10FE16403A37006DF210 /* AVFoundation.framework */; };
+		7C5A9B4D15E24A7300FDAC4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9B4C15E24A7300FDAC4E /* UIKit.framework */; };
+		7C5A9B4F15E24A7300FDAC4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9B4E15E24A7300FDAC4E /* Foundation.framework */; };
+		7C5A9B5115E24A7300FDAC4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9B5015E24A7300FDAC4E /* CoreGraphics.framework */; };
+		7C5A9B5715E24A7300FDAC4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A9B5515E24A7300FDAC4E /* InfoPlist.strings */; };
+		7C5A9B5915E24A7300FDAC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B5815E24A7300FDAC4E /* main.m */; };
+		7C5A9B8815E24E7000FDAC4E /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A9B7B15E24E7000FDAC4E /* FBDialog.bundle */; };
+		7C5A9B8915E24E7000FDAC4E /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9B8115E24E7000FDAC4E /* libfacebook_ios_sdk.a */; };
+		7C5A9B8D15E251E200FDAC4E /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9B8C15E251E200FDAC4E /* libGoogleAnalytics.a */; };
+		7C5A9BF515E2585900FDAC4E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BF415E2585900FDAC4E /* Twitter.framework */; };
+		7C5A9BF715E2586500FDAC4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BF615E2586500FDAC4E /* SystemConfiguration.framework */; };
+		7C5A9BF915E2587200FDAC4E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BF815E2587200FDAC4E /* MediaPlayer.framework */; };
+		7C5A9BFB15E2587C00FDAC4E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BFA15E2587C00FDAC4E /* StoreKit.framework */; };
+		7C5A9BFD15E2588700FDAC4E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BFC15E2588700FDAC4E /* MessageUI.framework */; };
+		7C5A9BFF15E2588F00FDAC4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9BFE15E2588F00FDAC4E /* CFNetwork.framework */; };
+		7C5A9C0115E258AC00FDAC4E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A9C0015E258AC00FDAC4E /* libsqlite3.dylib */; };
+		7C5A9C0415E2592100FDAC4E /* ConfigObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B9115E253C700FDAC4E /* ConfigObject.m */; };
+		7C5A9C0615E2593100FDAC4E /* AdminDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B9615E253FD00FDAC4E /* AdminDashBoard.m */; };
+		7C5A9C0715E2593900FDAC4E /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B9815E253FD00FDAC4E /* Report.m */; };
+		7C5A9C0915E2596600FDAC4E /* TermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B9C15E253FD00FDAC4E /* TermsAndConditions.m */; };
+		7C5A9C0A15E2596600FDAC4E /* HowtoUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9B9E15E253FD00FDAC4E /* HowtoUse.m */; };
+		7C5A9C0B15E2596600FDAC4E /* PopUpTableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BA015E253FD00FDAC4E /* PopUpTableviewViewController.m */; };
+		7C5A9C0C15E2596600FDAC4E /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BA315E2542300FDAC4E /* Start.m */; };
+		7C5A9C0D15E2596600FDAC4E /* FreeVideosClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BA515E2542300FDAC4E /* FreeVideosClass.m */; };
+		7C5A9C0E15E2596600FDAC4E /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BA715E2542300FDAC4E /* VideoPlayer.m */; };
+		7C5A9C0F15E2596600FDAC4E /* Buy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BA915E2542300FDAC4E /* Buy.m */; };
+		7C5A9C1015E2596600FDAC4E /* CustomStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BAB15E2542300FDAC4E /* CustomStoreObserver.m */; };
+		7C5A9C1115E2596600FDAC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BC015E2549D00FDAC4E /* AppDelegate.m */; };
+		7C5A9C1215E2596600FDAC4E /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BC315E2549D00FDAC4E /* TabBar.m */; };
+		7C5A9C1315E2596600FDAC4E /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9BC515E2549D00FDAC4E /* ActivityIndicator.m */; };
+		7C5A9C1915E2669800FDAC4E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A9C0315E258C200FDAC4E /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C87DDDE1734F4D100D5C5AB /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87DDDB1734F46B00D5C5AB /* LearnersCloudSamplesVideos.m */; };
+		7C87DDDF1734F4D100D5C5AB /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87DDDD1734F48D00D5C5AB /* Help.m */; };
+		7C87DDE41734F67C00D5C5AB /* Trailers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87DDE11734F66200D5C5AB /* Trailers.m */; };
+		7C87DDE51734F67C00D5C5AB /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87DDE31734F66200D5C5AB /* TrailerPlayer.m */; };
+		7C87DDE71734F6AF00D5C5AB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C87DDE61734F6AF00D5C5AB /* MainWindow.xib */; };
+		7CA5303C162FFF84005FACC4 /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA5303A162FFF84005FACC4 /* LearnersCloudTermsonapps.pdf */; };
+		7CA5303E16301D20005FACC4 /* UnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA53037162FF5A6005FACC4 /* UnderlinedButton.m */; };
+		7CA5303F16301D20005FACC4 /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA53039162FF5A6005FACC4 /* TransparentToolBar.m */; };
+		7CB8F0FF17FE0D530058D512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8F0FE17FE0D530058D512 /* Images.xcassets */; };
+		7CD6D9BF16974780004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9BA1697463F004BCB15 /* Coverage.m */; };
+		7CD6D9C016974780004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9BC1697463F004BCB15 /* CoverageViewer.m */; };
+		7CEA7D1516FC756500DB5C0B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D1416FC756500DB5C0B /* HowtouseVideoStreamer.pdf */; };
+		CD4F9CEC18BF5DBC009C5902 /* iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD4F9CEB18BF5DBC009C5902 /* iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C098FC118034490008AE468 /* GCSE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GCSE.entitlements; path = ChemistryVideoStreameriPad/GCSE.entitlements; sourceTree = "<group>"; };
+		7C1E10FE16403A37006DF210 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7C5A9B4815E24A7300FDAC4E /* Edexcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edexcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5A9B4C15E24A7300FDAC4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C5A9B4E15E24A7300FDAC4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C5A9B5015E24A7300FDAC4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C5A9B5415E24A7300FDAC4E /* ChemistryiGCSEVideoEd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChemistryiGCSEVideoEd-Info.plist"; sourceTree = "<group>"; };
+		7C5A9B5615E24A7300FDAC4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C5A9B5815E24A7300FDAC4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C5A9B5A15E24A7300FDAC4E /* ChemistryiGCSEVideoEd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChemistryiGCSEVideoEd-Prefix.pch"; sourceTree = "<group>"; };
+		7C5A9B7915E24E7000FDAC4E /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		7C5A9B7A15E24E7000FDAC4E /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		7C5A9B7B15E24E7000FDAC4E /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		7C5A9B7C15E24E7000FDAC4E /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		7C5A9B7D15E24E7000FDAC4E /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		7C5A9B7E15E24E7000FDAC4E /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		7C5A9B7F15E24E7000FDAC4E /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		7C5A9B8015E24E7000FDAC4E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7C5A9B8115E24E7000FDAC4E /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		7C5A9B8215E24E7000FDAC4E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7C5A9B8315E24E7000FDAC4E /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7C5A9B8415E24E7000FDAC4E /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7C5A9B8515E24E7000FDAC4E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7C5A9B8615E24E7000FDAC4E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7C5A9B8715E24E7000FDAC4E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7C5A9B8B15E251D200FDAC4E /* GANTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		7C5A9B8C15E251E200FDAC4E /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		7C5A9B9015E253C700FDAC4E /* ConfigObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigObject.h; sourceTree = "<group>"; };
+		7C5A9B9115E253C700FDAC4E /* ConfigObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigObject.m; sourceTree = "<group>"; };
+		7C5A9B9515E253FD00FDAC4E /* AdminDashBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminDashBoard.h; sourceTree = "<group>"; };
+		7C5A9B9615E253FD00FDAC4E /* AdminDashBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminDashBoard.m; sourceTree = "<group>"; };
+		7C5A9B9715E253FD00FDAC4E /* Report.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		7C5A9B9815E253FD00FDAC4E /* Report.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		7C5A9B9B15E253FD00FDAC4E /* TermsAndConditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermsAndConditions.h; sourceTree = "<group>"; };
+		7C5A9B9C15E253FD00FDAC4E /* TermsAndConditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditions.m; sourceTree = "<group>"; };
+		7C5A9B9D15E253FD00FDAC4E /* HowtoUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HowtoUse.h; sourceTree = "<group>"; };
+		7C5A9B9E15E253FD00FDAC4E /* HowtoUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowtoUse.m; sourceTree = "<group>"; };
+		7C5A9B9F15E253FD00FDAC4E /* PopUpTableviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopUpTableviewViewController.h; sourceTree = "<group>"; };
+		7C5A9BA015E253FD00FDAC4E /* PopUpTableviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUpTableviewViewController.m; sourceTree = "<group>"; };
+		7C5A9BA215E2542300FDAC4E /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		7C5A9BA315E2542300FDAC4E /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		7C5A9BA415E2542300FDAC4E /* FreeVideosClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreeVideosClass.h; sourceTree = "<group>"; };
+		7C5A9BA515E2542300FDAC4E /* FreeVideosClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeVideosClass.m; sourceTree = "<group>"; };
+		7C5A9BA615E2542300FDAC4E /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		7C5A9BA715E2542300FDAC4E /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		7C5A9BA815E2542300FDAC4E /* Buy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Buy.h; sourceTree = "<group>"; };
+		7C5A9BA915E2542300FDAC4E /* Buy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buy.m; sourceTree = "<group>"; };
+		7C5A9BAA15E2542300FDAC4E /* CustomStoreObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomStoreObserver.h; sourceTree = "<group>"; };
+		7C5A9BAB15E2542300FDAC4E /* CustomStoreObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomStoreObserver.m; sourceTree = "<group>"; };
+		7C5A9BBF15E2549D00FDAC4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C5A9BC015E2549D00FDAC4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C5A9BC215E2549D00FDAC4E /* TabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		7C5A9BC315E2549D00FDAC4E /* TabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		7C5A9BC415E2549D00FDAC4E /* ActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
+		7C5A9BC515E2549D00FDAC4E /* ActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
+		7C5A9BF415E2585900FDAC4E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7C5A9BF615E2586500FDAC4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7C5A9BF815E2587200FDAC4E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7C5A9BFA15E2587C00FDAC4E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7C5A9BFC15E2588700FDAC4E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7C5A9BFE15E2588F00FDAC4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7C5A9C0015E258AC00FDAC4E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7C5A9C0215E258C200FDAC4E /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7C5A9C0315E258C200FDAC4E /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7C87DDDA1734F46B00D5C5AB /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
+		7C87DDDB1734F46B00D5C5AB /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
+		7C87DDDC1734F48D00D5C5AB /* Help.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		7C87DDDD1734F48D00D5C5AB /* Help.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		7C87DDE01734F66200D5C5AB /* Trailers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trailers.h; sourceTree = "<group>"; };
+		7C87DDE11734F66200D5C5AB /* Trailers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trailers.m; sourceTree = "<group>"; };
+		7C87DDE21734F66200D5C5AB /* TrailerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
+		7C87DDE31734F66200D5C5AB /* TrailerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		7C87DDE61734F6AF00D5C5AB /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7CA53036162FF5A6005FACC4 /* UnderlinedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderlinedButton.h; sourceTree = "<group>"; };
+		7CA53037162FF5A6005FACC4 /* UnderlinedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderlinedButton.m; sourceTree = "<group>"; };
+		7CA53038162FF5A6005FACC4 /* TransparentToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentToolBar.h; sourceTree = "<group>"; };
+		7CA53039162FF5A6005FACC4 /* TransparentToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentToolBar.m; sourceTree = "<group>"; };
+		7CA5303A162FFF84005FACC4 /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
+		7CB8F0FE17FE0D530058D512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChemistryVideoStreameriPad/Images.xcassets; sourceTree = "<group>"; };
+		7CD6D9B91697463F004BCB15 /* Coverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coverage.h; sourceTree = "<group>"; };
+		7CD6D9BA1697463F004BCB15 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
+		7CD6D9BB1697463F004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
+		7CD6D9BC1697463F004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
+		7CEA7D1416FC756500DB5C0B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
+		CD4F9CEB18BF5DBC009C5902 /* iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C5A9B4515E24A7300FDAC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1E10FF16403A37006DF210 /* AVFoundation.framework in Frameworks */,
+				7C5A9C0115E258AC00FDAC4E /* libsqlite3.dylib in Frameworks */,
+				7C5A9BFF15E2588F00FDAC4E /* CFNetwork.framework in Frameworks */,
+				7C5A9BFD15E2588700FDAC4E /* MessageUI.framework in Frameworks */,
+				7C5A9BFB15E2587C00FDAC4E /* StoreKit.framework in Frameworks */,
+				7C5A9BF915E2587200FDAC4E /* MediaPlayer.framework in Frameworks */,
+				7C5A9BF715E2586500FDAC4E /* SystemConfiguration.framework in Frameworks */,
+				7C5A9BF515E2585900FDAC4E /* Twitter.framework in Frameworks */,
+				7C5A9B4D15E24A7300FDAC4E /* UIKit.framework in Frameworks */,
+				7C5A9B4F15E24A7300FDAC4E /* Foundation.framework in Frameworks */,
+				7C5A9B5115E24A7300FDAC4E /* CoreGraphics.framework in Frameworks */,
+				7C5A9B8915E24E7000FDAC4E /* libfacebook_ios_sdk.a in Frameworks */,
+				7C5A9B8D15E251E200FDAC4E /* libGoogleAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C5A9B3D15E24A7200FDAC4E = {
+			isa = PBXGroup;
+			children = (
+				7CD6D9AB16974613004BCB15 /* Files */,
+				7C5A9B7815E24E7000FDAC4E /* facebook-ios-sdk */,
+				7C5A9B8A15E24E8C00FDAC4E /* Analytics */,
+				7C5A9B8E15E2536B00FDAC4E /* VideoImages */,
+				7C5A9B8F15E253B300FDAC4E /* Data Models */,
+				7C5A9B9215E253E900FDAC4E /* Classes */,
+				7C5A9BA115E2540E00FDAC4E /* ClientSideClasses */,
+				7C5A9BAC15E2543500FDAC4E /* Icons */,
+				7C5A9B5215E24A7300FDAC4E /* Main Window */,
+				7C5A9BC715E254E400FDAC4E /* Resources */,
+				7C5A9BC615E254C500FDAC4E /* ChemistryVideoStreameriPad */,
+				7C5A9B4B15E24A7300FDAC4E /* Frameworks */,
+				7C5A9B4915E24A7300FDAC4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C5A9B4915E24A7300FDAC4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9B4815E24A7300FDAC4E /* Edexcel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C5A9B4B15E24A7300FDAC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9C0215E258C200FDAC4E /* Reachability.h */,
+				7C5A9C0315E258C200FDAC4E /* Reachability.m */,
+				7C5A9C0015E258AC00FDAC4E /* libsqlite3.dylib */,
+				7C1E10FE16403A37006DF210 /* AVFoundation.framework */,
+				7C5A9BFE15E2588F00FDAC4E /* CFNetwork.framework */,
+				7C5A9BFC15E2588700FDAC4E /* MessageUI.framework */,
+				7C5A9BFA15E2587C00FDAC4E /* StoreKit.framework */,
+				7C5A9BF815E2587200FDAC4E /* MediaPlayer.framework */,
+				7C5A9BF615E2586500FDAC4E /* SystemConfiguration.framework */,
+				7C5A9BF415E2585900FDAC4E /* Twitter.framework */,
+				7C5A9B4C15E24A7300FDAC4E /* UIKit.framework */,
+				7C5A9B4E15E24A7300FDAC4E /* Foundation.framework */,
+				7C5A9B5015E24A7300FDAC4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5A9B5215E24A7300FDAC4E /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9BBF15E2549D00FDAC4E /* AppDelegate.h */,
+				7C5A9BC015E2549D00FDAC4E /* AppDelegate.m */,
+				7C87DDE61734F6AF00D5C5AB /* MainWindow.xib */,
+				7C5A9BC215E2549D00FDAC4E /* TabBar.h */,
+				7C5A9BC315E2549D00FDAC4E /* TabBar.m */,
+				7C5A9BC415E2549D00FDAC4E /* ActivityIndicator.h */,
+				7C5A9BC515E2549D00FDAC4E /* ActivityIndicator.m */,
+				7CA53036162FF5A6005FACC4 /* UnderlinedButton.h */,
+				7CA53037162FF5A6005FACC4 /* UnderlinedButton.m */,
+				7CA53038162FF5A6005FACC4 /* TransparentToolBar.h */,
+				7CA53039162FF5A6005FACC4 /* TransparentToolBar.m */,
+			);
+			name = "Main Window";
+			path = ChemistryVideoStreameriPad;
+			sourceTree = "<group>";
+		};
+		7C5A9B5315E24A7300FDAC4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9B5415E24A7300FDAC4E /* ChemistryiGCSEVideoEd-Info.plist */,
+				7C5A9B5515E24A7300FDAC4E /* InfoPlist.strings */,
+				7C5A9B5815E24A7300FDAC4E /* main.m */,
+				7C5A9B5A15E24A7300FDAC4E /* ChemistryiGCSEVideoEd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ChemistryVideoStreameriPad;
+			sourceTree = "<group>";
+		};
+		7C5A9B7815E24E7000FDAC4E /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9B7915E24E7000FDAC4E /* Facebook.h */,
+				7C5A9B7A15E24E7000FDAC4E /* FBConnect.h */,
+				7C5A9B7B15E24E7000FDAC4E /* FBDialog.bundle */,
+				7C5A9B7C15E24E7000FDAC4E /* FBDialog.h */,
+				7C5A9B7D15E24E7000FDAC4E /* FBFrictionlessRequestSettings.h */,
+				7C5A9B7E15E24E7000FDAC4E /* FBLoginDialog.h */,
+				7C5A9B7F15E24E7000FDAC4E /* FBRequest.h */,
+				7C5A9B8015E24E7000FDAC4E /* JSON.h */,
+				7C5A9B8115E24E7000FDAC4E /* libfacebook_ios_sdk.a */,
+				7C5A9B8215E24E7000FDAC4E /* NSObject+SBJSON.h */,
+				7C5A9B8315E24E7000FDAC4E /* NSString+SBJSON.h */,
+				7C5A9B8415E24E7000FDAC4E /* SBJSON.h */,
+				7C5A9B8515E24E7000FDAC4E /* SBJsonBase.h */,
+				7C5A9B8615E24E7000FDAC4E /* SBJsonParser.h */,
+				7C5A9B8715E24E7000FDAC4E /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+		7C5A9B8A15E24E8C00FDAC4E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9B8B15E251D200FDAC4E /* GANTracker.h */,
+				7C5A9B8C15E251E200FDAC4E /* libGoogleAnalytics.a */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		7C5A9B8E15E2536B00FDAC4E /* VideoImages */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5303A162FFF84005FACC4 /* LearnersCloudTermsonapps.pdf */,
+				7CEA7D1416FC756500DB5C0B /* HowtouseVideoStreamer.pdf */,
+			);
+			name = VideoImages;
+			sourceTree = "<group>";
+		};
+		7C5A9B8F15E253B300FDAC4E /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9B9015E253C700FDAC4E /* ConfigObject.h */,
+				7C5A9B9115E253C700FDAC4E /* ConfigObject.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		7C5A9B9215E253E900FDAC4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C87DDDA1734F46B00D5C5AB /* LearnersCloudSamplesVideos.h */,
+				7C87DDDB1734F46B00D5C5AB /* LearnersCloudSamplesVideos.m */,
+				7C5A9B9515E253FD00FDAC4E /* AdminDashBoard.h */,
+				7C5A9B9615E253FD00FDAC4E /* AdminDashBoard.m */,
+				7C5A9B9715E253FD00FDAC4E /* Report.h */,
+				7C5A9B9815E253FD00FDAC4E /* Report.m */,
+				7C87DDDC1734F48D00D5C5AB /* Help.h */,
+				7C87DDDD1734F48D00D5C5AB /* Help.m */,
+				7C5A9B9B15E253FD00FDAC4E /* TermsAndConditions.h */,
+				7C5A9B9C15E253FD00FDAC4E /* TermsAndConditions.m */,
+				7C5A9B9D15E253FD00FDAC4E /* HowtoUse.h */,
+				7C5A9B9E15E253FD00FDAC4E /* HowtoUse.m */,
+				7C5A9B9F15E253FD00FDAC4E /* PopUpTableviewViewController.h */,
+				7C5A9BA015E253FD00FDAC4E /* PopUpTableviewViewController.m */,
+				7CD6D9B91697463F004BCB15 /* Coverage.h */,
+				7CD6D9BA1697463F004BCB15 /* Coverage.m */,
+				7CD6D9BB1697463F004BCB15 /* CoverageViewer.h */,
+				7CD6D9BC1697463F004BCB15 /* CoverageViewer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7C5A9BA115E2540E00FDAC4E /* ClientSideClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A9BA215E2542300FDAC4E /* Start.h */,
+				7C5A9BA315E2542300FDAC4E /* Start.m */,
+				7C5A9BA415E2542300FDAC4E /* FreeVideosClass.h */,
+				7C5A9BA515E2542300FDAC4E /* FreeVideosClass.m */,
+				7C5A9BA615E2542300FDAC4E /* VideoPlayer.h */,
+				7C5A9BA715E2542300FDAC4E /* VideoPlayer.m */,
+				7C5A9BA815E2542300FDAC4E /* Buy.h */,
+				7C5A9BA915E2542300FDAC4E /* Buy.m */,
+				7C5A9BAA15E2542300FDAC4E /* CustomStoreObserver.h */,
+				7C5A9BAB15E2542300FDAC4E /* CustomStoreObserver.m */,
+				7C87DDE01734F66200D5C5AB /* Trailers.h */,
+				7C87DDE11734F66200D5C5AB /* Trailers.m */,
+				7C87DDE21734F66200D5C5AB /* TrailerPlayer.h */,
+				7C87DDE31734F66200D5C5AB /* TrailerPlayer.m */,
+			);
+			name = ClientSideClasses;
+			sourceTree = "<group>";
+		};
+		7C5A9BAC15E2543500FDAC4E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		7C5A9BC615E254C500FDAC4E /* ChemistryVideoStreameriPad */ = {
+			isa = PBXGroup;
+			children = (
+				7C098FC118034490008AE468 /* GCSE.entitlements */,
+				7CB8F0FE17FE0D530058D512 /* Images.xcassets */,
+				7C5A9B5315E24A7300FDAC4E /* Supporting Files */,
+			);
+			name = ChemistryVideoStreameriPad;
+			sourceTree = "<group>";
+		};
+		7C5A9BC715E254E400FDAC4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CD6D9AB16974613004BCB15 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F9CEB18BF5DBC009C5902 /* iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5A9B4715E24A7300FDAC4E /* ChemistryiGCSEVideoEd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5A9B7415E24A7300FDAC4E /* Build configuration list for PBXNativeTarget "ChemistryiGCSEVideoEd" */;
+			buildPhases = (
+				7C5A9B4415E24A7300FDAC4E /* Sources */,
+				7C5A9B4515E24A7300FDAC4E /* Frameworks */,
+				7C5A9B4615E24A7300FDAC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemistryiGCSEVideoEd;
+			productName = ChemistryVideoStreameriPad;
+			productReference = 7C5A9B4815E24A7300FDAC4E /* Edexcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C5A9B3F15E24A7200FDAC4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = caxtonidowu;
+				TargetAttributes = {
+					7C5A9B4715E24A7300FDAC4E = {
+						DevelopmentTeam = 9RNCM436XC;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7C5A9B4215E24A7200FDAC4E /* Build configuration list for PBXProject "ChemistryiGCSEVideoEd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C5A9B3D15E24A7200FDAC4E;
+			productRefGroup = 7C5A9B4915E24A7300FDAC4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5A9B4715E24A7300FDAC4E /* ChemistryiGCSEVideoEd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C5A9B4615E24A7300FDAC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5A9B5715E24A7300FDAC4E /* InfoPlist.strings in Resources */,
+				7C5A9B8815E24E7000FDAC4E /* FBDialog.bundle in Resources */,
+				7CB8F0FF17FE0D530058D512 /* Images.xcassets in Resources */,
+				7CA5303C162FFF84005FACC4 /* LearnersCloudTermsonapps.pdf in Resources */,
+				CD4F9CEC18BF5DBC009C5902 /* iGCSE-Chemistry-Edexcel-Examiniation-Coverage.pdf in Resources */,
+				7CEA7D1516FC756500DB5C0B /* HowtouseVideoStreamer.pdf in Resources */,
+				7C87DDE71734F6AF00D5C5AB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5A9B4415E24A7300FDAC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C87DDE41734F67C00D5C5AB /* Trailers.m in Sources */,
+				7C87DDE51734F67C00D5C5AB /* TrailerPlayer.m in Sources */,
+				7C87DDDE1734F4D100D5C5AB /* LearnersCloudSamplesVideos.m in Sources */,
+				7C87DDDF1734F4D100D5C5AB /* Help.m in Sources */,
+				7CD6D9BF16974780004BCB15 /* Coverage.m in Sources */,
+				7CD6D9C016974780004BCB15 /* CoverageViewer.m in Sources */,
+				7CA5303E16301D20005FACC4 /* UnderlinedButton.m in Sources */,
+				7CA5303F16301D20005FACC4 /* TransparentToolBar.m in Sources */,
+				7C5A9C1915E2669800FDAC4E /* Reachability.m in Sources */,
+				7C5A9C0915E2596600FDAC4E /* TermsAndConditions.m in Sources */,
+				7C5A9C0A15E2596600FDAC4E /* HowtoUse.m in Sources */,
+				7C5A9C0B15E2596600FDAC4E /* PopUpTableviewViewController.m in Sources */,
+				7C5A9C0C15E2596600FDAC4E /* Start.m in Sources */,
+				7C5A9C0D15E2596600FDAC4E /* FreeVideosClass.m in Sources */,
+				7C5A9C0E15E2596600FDAC4E /* VideoPlayer.m in Sources */,
+				7C5A9C0F15E2596600FDAC4E /* Buy.m in Sources */,
+				7C5A9C1015E2596600FDAC4E /* CustomStoreObserver.m in Sources */,
+				7C5A9C1115E2596600FDAC4E /* AppDelegate.m in Sources */,
+				7C5A9C1215E2596600FDAC4E /* TabBar.m in Sources */,
+				7C5A9C1315E2596600FDAC4E /* ActivityIndicator.m in Sources */,
+				7C5A9C0715E2593900FDAC4E /* Report.m in Sources */,
+				7C5A9C0615E2593100FDAC4E /* AdminDashBoard.m in Sources */,
+				7C5A9C0415E2592100FDAC4E /* ConfigObject.m in Sources */,
+				7C5A9B5915E24A7300FDAC4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C5A9B5515E24A7300FDAC4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5A9B5615E24A7300FDAC4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C5A9B7215E24A7300FDAC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7C5A9B7315E24A7300FDAC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C5A9B7515E24A7300FDAC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ChemistryVideoStreameriPad/GCSE.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Prefix.pch";
+				INFOPLIST_FILE = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Edexcel;
+				PROVISIONING_PROFILE = "AC72639C-1FA7-4DAA-8EBE-442C689D11FC";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C5A9B7615E24A7300FDAC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ChemistryVideoStreameriPad/GCSE.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Prefix.pch";
+				INFOPLIST_FILE = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-ios-sdk\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Edexcel;
+				PROVISIONING_PROFILE = "B94293AA-DE70-46C8-92DA-6DC8AD0FD88E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B94293AA-DE70-46C8-92DA-6DC8AD0FD88E";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C5A9B4215E24A7200FDAC4E /* Build configuration list for PBXProject "ChemistryiGCSEVideoEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5A9B7215E24A7300FDAC4E /* Debug */,
+				7C5A9B7315E24A7300FDAC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5A9B7415E24A7300FDAC4E /* Build configuration list for PBXNativeTarget "ChemistryiGCSEVideoEd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5A9B7515E24A7300FDAC4E /* Debug */,
+				7C5A9B7615E24A7300FDAC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C5A9B3F15E24A7200FDAC4E /* Project object */;
+}
