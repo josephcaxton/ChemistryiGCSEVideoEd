@@ -170,36 +170,36 @@
 -(NSString *)WorkOutSubsriptionInDays:(NSString*)theProductID{
     // Only 1 month to 1 Year subscription supported
     
-    if ([[theProductID lowercaseString] isEqualToString:@"chemistry1week"] ){
+    if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad1week"] ){
         
         return @"7";
         
     }
 
     
-  else  if ([[theProductID lowercaseString] isEqualToString:@"chemistryipad1month"] ){
+  else  if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad1month"] ){
         
         return @"31";
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryipad3months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad3months"] ){
         
         return @"93";
         
     }
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryipad6months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad6months"] ){
         
         return @"186";
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryipad9months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad9months"] ){
         
         return @"279";
         
     }
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryipad12months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryigcseedipad12months"] ){
         
         return @"372";
         
