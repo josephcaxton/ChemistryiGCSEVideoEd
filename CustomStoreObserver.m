@@ -441,7 +441,7 @@
     
     NSURL *url = [NSURL URLWithString:queryString];
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
-    VerificationAppID = @"71"; //Chemistry iPad
+    VerificationAppID = @"15"; //Chemistry iPad appstatus.xml
     
         NSString *FullString = [NSString stringWithFormat:@"productIdentifier=%@&DeviceID=%@&days=%@&transactionIdentifier=%@&B64receipt=%@&email=%@&password=%@&AppID=%@",FinalProductID,MyDeviceId,SubscriptionInDays,TransactionID,EncodedReceipt,EmailAddress,Password,VerificationAppID];
         
