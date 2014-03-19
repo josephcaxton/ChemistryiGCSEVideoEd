@@ -554,7 +554,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "F62FC9E3-73A3-4FE6-A767-6CA8F046B39D";
+				PROVISIONING_PROFILE = "FB5EE757-4ECB-4DC6-ACDB-2E4D975289EA";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -566,8 +566,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = ChemistryVideoStreameriPad/GCSE.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Prefix.pch";
 				INFOPLIST_FILE = "ChemistryVideoStreameriPad/ChemistryiGCSEVideoEd-Info.plist";
@@ -578,8 +578,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Edexcel;
-				PROVISIONING_PROFILE = "56D44ABC-FC05-4CA4-A4E4-69807BBC1D80";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56D44ABC-FC05-4CA4-A4E4-69807BBC1D80";
+				PROVISIONING_PROFILE = "77D616E4-143E-4B31-AF51-A1C925DB4A13";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77D616E4-143E-4B31-AF51-A1C925DB4A13";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
